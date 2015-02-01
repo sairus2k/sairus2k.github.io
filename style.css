@@ -1,0 +1,35 @@
+html, body, header, h1 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  border-bottom: 1px solid #555;
+}
+header {
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+section .container {
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+h1 {
+  color: #555;
+  margin-bottom: 10px;
+}
+header h1 span {
+  color: #888;
+}
+section div>div {
+  width: 550px;
+  display: inline-block;
+  margin-left: 25px;
+}
+section img {
+  box-shadow: 0 0 15px 0 rgba(0,0,0,.5);
+}
